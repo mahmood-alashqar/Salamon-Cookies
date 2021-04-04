@@ -1,0 +1,173 @@
+table, td, th {
+    border: 1px solid black;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+   .headerName{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    float: left;
+    margin: 1% 5%;
+  }
+  
+  #headerLogo{
+    max-width: 10%;
+    float: left;
+    margin: .5% 10px;
+  }
+  
+  .topnav {
+    background-color: #f19d04;
+    height: 60px;
+    color: white;
+    position: fixed;
+    width: 1215px;
+  }
+  #newLocation > fieldset
+  {
+   
+    background-color: #f19d04d9;
+    display: grid;
+    margin-left: 122px;
+  }
+  
+  body{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #C8BFC3; 
+    /* max-width: 100%; */
+    /* margin: 0 auto; */
+    /* margin-top: 60px; */
+  }
+  
+  #homePageImg{
+    margin-top: 60px;
+   }
+  
+  h1{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: white;
+  }
+  
+  h2{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    float: left;
+    font-size: 50px;
+    margin: 10% 20% 90%;
+    position: absolute;
+  }
+  
+  h3{
+    max-width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+  a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+    margin: 20px 40px;
+    float: right;
+    color: white;
+  }
+  
+  a:hover{
+    color: red;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+  
+  /* Sales figures table */
+  #salesPageImg{
+    background-image: url('../img/woodgrain.jpg');
+    background-attachment: fixed;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  table#cookies{
+    width: 95%;
+    border: 3px solid black;
+    background: white; 
+    margin: 2% auto;
+  }
+  
+  table#cookies tr:nth-child(odd){
+    background: #f5f5f5;
+  }
+  
+  table#cookies tr:not(:first-child):hover {
+    background: #000;
+    color: #fff;
+  }
+  
+  table#cookies th{
+    border: 2px solid #ccc;
+    height: 35px;
+    background-color: #f5f5f5;
+    font-weight: bold;
+  }
+  
+  table#cookies td{
+    border: 1px solid #ccc;
+    padding: .5rem 1.5rem;
+  }
+  
+  form#storeForm{
+    color: white;
+    font-family: 'Crete Round', serif;
+    max-width: 20%;
+    margin: 2% 40%;
+  }
+  input#salesFigures{
+    max-width: 80px;
+  }
+  
+  li{
+    float: right;
+    margin: 15px;
+  }
+  
+  legend{
+    text-align: center;
+    font-size: 25px;
+  }
+
+  #newLocation > fieldset > input[type=submit]:nth-child(20)
+  {
+    height: 56px;
+    width: 516px;
+    margin-left: 335px;
+  }
+  #newLocation > fieldset > legend
+  {
+    text-align: center;
+    font-size: 25px;
+    margin-right: 61px;
+    position: relative;
+    right: 497px;
+    top: 0px;
+    bottom: 50px;
+  }
+  body > h1:nth-child(3)
+  {
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px;
+    color: white;
+    margin-top: 0px;
+  }
+  #STORE
+  {
+    margin-top: 50px;
+  }
